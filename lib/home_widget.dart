@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'placeholder_widget.dart';
+import 'about_widget.dart';
 import 'marea_widget.dart';
+import 'landing_widget.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -12,9 +13,9 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
   final List<Widget> _children = [
-    PlaceholderWidget(Colors.white),
+    LandingWidget(),
     MeraeWidget(),
-    PlaceholderWidget(Colors.green)
+    AboutWidget()
   ];
 
   @override
