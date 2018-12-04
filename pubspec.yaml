@@ -21,6 +21,8 @@ dependencies:
   cupertino_icons: ^0.1.2
   http: any
   html: ^0.13.3
+  firebase_core: ^0.2.5
+  firebase_analytics: ^1.0.4
 
 dev_dependencies:
   flutter_launcher_icons: "^0.7.0"

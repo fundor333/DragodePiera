@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "679362025574",
+    "firebase_url": "https://drago-de-piera.firebaseio.com",
+    "project_id": "drago-de-piera",
+    "storage_bucket": "drago-de-piera.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679362025574:android:2795d744eef3bbd0",
+        "android_client_info": {
+          "package_name": "com.fundor333.dragodepiera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679362025574-mdj368gntaktcsfg41mb2oh3s344peln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZHTL0zOh043Ojxlpg8v-aNjgp42547rM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
