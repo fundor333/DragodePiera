@@ -55,9 +55,9 @@ class _MainFetchDataState extends State<MainFetchData> {
     return Scaffold(
         body: isLoading
             ?  Center(child: Text(
-          "0 cm",
+          "Test della pagina in corso\nAttualmente la marea é di 0 cm",
           style: TextStyle(
-            color: Colors.grey[500],
+            color: Colors.black,
           ),
         ))
             : Center(child: Text(

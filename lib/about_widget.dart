@@ -14,14 +14,14 @@ class AboutWidget extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8.0),
                   child: Text(
-                    'Oeschinen Lake Campground',
+                    'Drago de Piera',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
                 Text(
-                  'Kandersteg, Switzerland',
+                  'by Fundor333',
                   style: TextStyle(
                     color: Colors.grey[500],
                   ),
@@ -29,11 +29,6 @@ class AboutWidget extends StatelessWidget {
               ],
             ),
           ),
-          Icon(
-            Icons.star,
-            color: Colors.red[500],
-          ),
-          Text('41'),
         ],
       ),
     );
@@ -64,11 +59,7 @@ class AboutWidget extends StatelessWidget {
     Widget buttonSection = Container(
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          buildButtonColumn(Icons.call, 'CALL'),
-          buildButtonColumn(Icons.near_me, 'ROUTE'),
-          buildButtonColumn(Icons.share, 'SHARE'),
-        ],
+        children: [],
       ),
     );
 
@@ -76,7 +67,7 @@ class AboutWidget extends StatelessWidget {
       padding: const EdgeInsets.all(32.0),
       child: Text(
         '''
-Lake Oeschinen lies at the foot of the Blüemlisalp in the Bernese Alps. Situated 1,578 meters above sea level, it is one of the larger Alpine Lakes. A gondola ride from Kandersteg, followed by a half-hour walk through pastures and pine forest, leads you to the lake, which warms to 20 degrees Celsius in the summer. Activities enjoyed here include rowing, and riding the summer toboggan run.
+Ciao. Questa é un app che é stata costruita basandosi sugli OpenData del Comune di Venezia e del Centro Previsioni e Segnalazioni Maree di Veneziao.
         ''',
         softWrap: true,
       ),

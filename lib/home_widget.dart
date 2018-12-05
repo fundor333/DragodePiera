@@ -30,8 +30,8 @@ class _HomeState extends State<Home> {
         currentIndex: _currentIndex, // new
         items: [
           new BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            title: Text('Home'),
+            icon: Icon(Icons.dashboard),
+            title: Text('DashBoard'),
           ),
           new BottomNavigationBarItem(
             icon: Icon(Icons.broken_image),
