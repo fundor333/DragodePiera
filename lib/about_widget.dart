@@ -67,7 +67,7 @@ class AboutWidget extends StatelessWidget {
       padding: const EdgeInsets.all(32.0),
       child: Text(
         '''
-Ciao. Questa é un app che é stata costruita basandosi sugli OpenData del Comune di Venezia e del Centro Previsioni e Segnalazioni Maree di Veneziao.
+Ciao. Questa é un app che é stata costruita basandosi sugli OpenData del Comune di Venezia e del Centro Previsioni e Segnalazioni Maree di Venezia.
         ''',
         softWrap: true,
       ),
