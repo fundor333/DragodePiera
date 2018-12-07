@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'about_widget.dart';
-import 'marea_widget.dart';
 import 'landing_widget.dart';
+import 'marea_widget.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -10,6 +10,7 @@ class Home extends StatefulWidget {
     return _HomeState();
   }
 }
+
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
   final List<Widget> _children = [
@@ -38,9 +39,7 @@ class _HomeState extends State<Home> {
             title: Text('Marea'),
           ),
           new BottomNavigationBarItem(
-              icon: Icon(Icons.info),
-              title: Text('Info')
-          )
+              icon: Icon(Icons.info), title: Text('Info'))
         ],
       ),
     );
@@ -52,4 +51,3 @@ class _HomeState extends State<Home> {
     });
   }
 }
-

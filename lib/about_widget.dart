@@ -75,7 +75,6 @@ Ciao. Questa é un app che é stata costruita basandosi sugli OpenData del Comun
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-
       home: Scaffold(
         body: ListView(
           children: [

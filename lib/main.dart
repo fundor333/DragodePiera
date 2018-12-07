@@ -1,10 +1,11 @@
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 
 import 'home_widget.dart';
 
+final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
 
 void main() => runApp(App());
-
 
 class App extends StatelessWidget {
   @override
@@ -16,5 +17,3 @@ class App extends StatelessWidget {
     );
   }
 }
-
-
