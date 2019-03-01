@@ -6,9 +6,7 @@ class MeraeWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
+    return Scaffold(
         body: Center(
           child: Scaffold(
               body: Center(
@@ -35,7 +33,6 @@ class MeraeWidget extends StatelessWidget {
             ),
           )),
         ),
-      ),
     );
   }
 }

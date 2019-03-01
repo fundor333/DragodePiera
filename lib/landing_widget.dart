@@ -6,14 +6,11 @@ import 'package:http/http.dart' as http;
 class LandingWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
+    return Scaffold(
         body: Center(
           child: MainFetchData(),
         ),
-      ),
-    );
+      );
   }
 }
 
@@ -38,9 +35,7 @@ class _MainFetchDataState extends State<MainFetchData> {
     http.Response response = await http.get(
         'http://actv.avmspa.it/it/content/acqua-alta-servizi-di-navigazione-previsti');
     dom.Document document = parser.parse(response.body);
-    marea_attuale = document
-        .getElementsByTagName('actvtide-value-content--number')
-        .toString();
+    marea_attuale = document.toString();
 
     setState(() {
       isLoading = false;
@@ -55,9 +50,7 @@ class _MainFetchDataState extends State<MainFetchData> {
       "Test della pagina in corso\nAttualmente la marea é di " +
           marea_attuale +
           " cm",
-      style: TextStyle(
-        color: Colors.black,
-      ),
+              style: Theme.of(context).textTheme.body1,
     )));
   }
 }

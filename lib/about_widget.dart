@@ -15,16 +15,18 @@ class AboutWidget extends StatelessWidget {
                   padding: const EdgeInsets.only(bottom: 8.0),
                   child: Text(
                     'Drago de Piera',
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style: Theme
+                        .of(context)
+                        .textTheme
+                        .title,
                   ),
                 ),
                 Text(
                   'by Fundor333',
-                  style: TextStyle(
-                    color: Colors.grey[500],
-                  ),
+                  style: Theme
+                      .of(context)
+                      .textTheme
+                      .body2,
                 ),
               ],
             ),
@@ -34,7 +36,9 @@ class AboutWidget extends StatelessWidget {
     );
 
     Column buildButtonColumn(IconData icon, String label) {
-      Color color = Theme.of(context).primaryColor;
+      Color color = Theme
+          .of(context)
+          .primaryColor;
 
       return Column(
         mainAxisSize: MainAxisSize.min,
@@ -45,11 +49,10 @@ class AboutWidget extends StatelessWidget {
             margin: const EdgeInsets.only(top: 8.0),
             child: Text(
               label,
-              style: TextStyle(
-                fontSize: 12.0,
-                fontWeight: FontWeight.w400,
-                color: color,
-              ),
+              style: Theme
+                  .of(context)
+                  .textTheme
+                  .body1,
             ),
           ),
         ],
@@ -70,20 +73,20 @@ class AboutWidget extends StatelessWidget {
 Ciao. Questa é un app che é stata costruita basandosi sugli OpenData del Comune di Venezia e del Centro Previsioni e Segnalazioni Maree di Venezia.
         ''',
         softWrap: true,
+        style: Theme
+            .of(context)
+            .textTheme
+            .body1,
       ),
     );
 
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
+    return Scaffold(
         body: ListView(
           children: [
             titleSection,
             buttonSection,
             textSection,
           ],
-        ),
-      ),
-    );
+        ));
   }
 }
