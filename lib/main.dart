@@ -14,7 +14,7 @@ class MaterialAppDrago extends MaterialApp {
 
   final theme = ThemeData(
       brightness: Brightness.dark,
-      primaryColor: Colors.blueAccent,
+      primaryColor: Colors.indigo[700],
       accentColor: Colors.cyan[600],
 
       // Define the default Font Family

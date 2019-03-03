@@ -1,11 +1,19 @@
 import 'dart:convert';
 
+import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 final String RED_CIRCLE = "🔴";
 final String GRAY_CIRCLE = "🔘";
-final String UP = "🔺";
-final String DOWN = "🔻";
+final  UP = IconButton(
+    icon: Icon(Icons.keyboard_arrow_up),
+    tooltip: 'Massimale',
+    onPressed: () {});
+
+final DOWN = IconButton(
+    icon: Icon(Icons.keyboard_arrow_down),
+    tooltip: 'Minimale',
+    onPressed: () {});
 final String TIMEWATCH = "⌚";
 final String CALENDAR = "📆";
 final String ALLERT = "🌟";
@@ -13,7 +21,7 @@ final String ALLERT = "🌟";
 class Previsione {
   final String data_previsione;
   final String data_estremale;
-  final String tipo_estremale;
+  final IconButton tipo_estremale;
   final String valore;
 
   Previsione(

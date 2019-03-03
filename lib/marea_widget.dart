@@ -1,4 +1,5 @@
 import 'package:drago_de_piera/models/previsione.dart';
+import 'package:drago_de_piera/planet_row.dart';
 import 'package:flutter/material.dart';
 
 class MeraeWidget extends StatelessWidget {
@@ -18,11 +19,7 @@ class MeraeWidget extends StatelessWidget {
                   return ListView.builder(
                       itemCount: list.length,
                       itemBuilder: (BuildContext context, int index) {
-                        return ListTile(
-                            title: new Text(list[index].data_estremale +
-                                list[index].tipo_estremale +
-                                list[index].valore));
-                      });
+                        return PlanetRow(list[index]);});
                 } else if (snapshot.hasError) {
                   return Text("${snapshot.error}");
                 }
