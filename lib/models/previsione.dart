@@ -6,12 +6,12 @@ import 'package:http/http.dart' as http;
 final String RED_CIRCLE = "🔴";
 final String GRAY_CIRCLE = "🔘";
 final  UP = IconButton(
-    icon: Icon(Icons.keyboard_arrow_up),
+    icon: Icon(Icons.trending_up),
     tooltip: 'Massimale',
     onPressed: () {});
 
 final DOWN = IconButton(
-    icon: Icon(Icons.keyboard_arrow_down),
+    icon: Icon(Icons.trending_down),
     tooltip: 'Minimale',
     onPressed: () {});
 final String TIMEWATCH = "⌚";
@@ -20,15 +20,15 @@ final String ALLERT = "🌟";
 
 class Previsione {
   final String data_previsione;
+  final String ora_previsione;
   final String data_estremale;
+  final String ora_estremale;
   final IconButton tipo_estremale;
   final String valore;
 
-  Previsione(
-      {this.data_estremale,
-      this.data_previsione,
-      this.tipo_estremale,
-      this.valore});
+
+  Previsione(this.data_previsione, this.ora_previsione, this.data_estremale,
+      this.ora_estremale, this.tipo_estremale, this.valore);
 
   factory Previsione.fromJson(Map<String, dynamic> json) {
     var element = json["TIPO_ESTREMALE"];
@@ -46,10 +46,12 @@ class Previsione {
     }
 
     return Previsione(
-      data_previsione: json['DATA_PREVISIONE'],
-      data_estremale: json['DATA_ESTREMALE'],
-      tipo_estremale: maximum,
-      valore: valore,
+       json['DATA_PREVISIONE'].split(' ')[0],
+       json['DATA_PREVISIONE'].split(' ')[1],
+       json['DATA_ESTREMALE'].split(' ')[0],
+       json['DATA_ESTREMALE'].split(' ')[1],
+       maximum,
+       valore,
     );
   }
 }

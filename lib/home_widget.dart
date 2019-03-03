@@ -1,3 +1,4 @@
+import 'package:drago_de_piera/models/developer.dart';
 import 'package:flutter/material.dart';
 
 import 'about_widget.dart';
