@@ -1,9 +1,9 @@
 import 'package:drago_de_piera/models/developer.dart';
 import 'package:flutter/material.dart';
 
-import 'about_widget.dart';
-import 'landing_widget.dart';
-import 'marea_widget.dart';
+import 'package:drago_de_piera/ui/about_widget.dart';
+import 'package:drago_de_piera/ui/landing_widget.dart';
+import 'package:drago_de_piera/ui/marea_widget.dart';
 
 class Home extends StatefulWidget {
   @override

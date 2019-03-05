@@ -1,7 +1,7 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 
-import 'home_widget.dart';
+import 'package:drago_de_piera/ui/home_widget.dart';
 
 final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
 
