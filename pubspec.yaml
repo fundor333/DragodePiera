@@ -7,7 +7,7 @@ description: Una app con info utili sulla cittá di Venezia
 # Both the version and the builder number may be overridden in flutter
 # build by specifying --build-name and --build-number, respectively.
 # Read more about versioning at semver.org.
-version: 0.0.2+3
+version: 1.0.0+8
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
@@ -24,6 +24,9 @@ dependencies:
   firebase_core: ^0.2.5
   firebase_analytics: ^1.0.4
   firebase_messaging: any
+  url_launcher: ^5.0.1
+  flip_box_bar: ^0.2.0
+
 
 dev_dependencies:
   flutter_launcher_icons: "^0.7.0"
@@ -52,6 +55,8 @@ flutter:
   #  - images/a_dot_ham.jpeg
   assets:
     - assets/
+    - assets/img/mars.png
+    - assets/img/logo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
@@ -78,3 +83,4 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
+
