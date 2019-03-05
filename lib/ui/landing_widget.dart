@@ -7,10 +7,10 @@ class LandingWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Center(
-          child: MainFetchData(),
-        ),
-      );
+      body: Center(
+        child: MainFetchData(),
+      ),
+    );
   }
 }
 
@@ -50,7 +50,7 @@ class _MainFetchDataState extends State<MainFetchData> {
       "Test della pagina in corso\nAttualmente la marea é di " +
           marea_attuale +
           " cm",
-              style: Theme.of(context).textTheme.body1,
+      style: Theme.of(context).textTheme.body1,
     )));
   }
 }

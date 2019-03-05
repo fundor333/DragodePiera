@@ -1,7 +1,6 @@
 import 'package:drago_de_piera/models/developer.dart';
 import 'package:drago_de_piera/ui/dev_card.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class AboutWidget extends StatelessWidget {
   @override
@@ -82,4 +81,3 @@ Ciao. Questa é un app che é stata costruita basandosi sugli OpenData del Comun
     ));
   }
 }
-
