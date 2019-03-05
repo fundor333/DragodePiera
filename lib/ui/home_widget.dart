@@ -27,18 +27,18 @@ class _HomeState extends State<Home> {
           FlipBarItem(
               icon: Icon(Icons.dashboard),
               text: Text("DashBoard"),
-              frontColor: Colors.blue,
-              backColor: Colors.blue),
+              frontColor: Theme.of(context).primaryColor,
+              backColor: Theme.of(context).primaryColor),
           FlipBarItem(
               icon: Icon(Icons.broken_image),
               text: Text("Marea"),
-              frontColor: Colors.green,
-              backColor: Colors.green),
+              frontColor: Theme.of(context).primaryColor,
+              backColor: Theme.of(context).primaryColor),
           FlipBarItem(
               icon: Icon(Icons.info),
               text: Text("Info"),
-              frontColor: Colors.red,
-              backColor: Colors.red),
+              frontColor: Theme.of(context).primaryColor,
+              backColor: Theme.of(context).primaryColor),
         ],
         onIndexChanged: (index) {
           setState(() {

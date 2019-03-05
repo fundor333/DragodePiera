@@ -7,10 +7,9 @@ class Developer {
   const Developer({this.id, this.name, this.github, this.role});
 }
 
-List<Developer> devs = [
-  const Developer(
+const Developer fundor333 =
+   Developer(
       id: "1",
       name: "Fundor 333",
       github: "fundor333",
-      role: "Main Developer and App Overlord"),
-];
+      role: "Main Developer and App Overlord");

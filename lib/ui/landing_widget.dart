@@ -1,56 +1,54 @@
 import 'package:flutter/material.dart';
-import 'package:html/dom.dart' as dom;
-import 'package:html/parser.dart' as parser;
-import 'package:http/http.dart' as http;
 
 class LandingWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: MainFetchData(),
+        child: LandingCard(),
       ),
     );
   }
 }
 
-class MainFetchData extends StatefulWidget {
-  @override
-  _MainFetchDataState createState() => _MainFetchDataState();
-}
-
-class _MainFetchDataState extends State<MainFetchData> {
-  String marea_attuale = "0";
-  var isLoading = false;
-
-  @override
-  void initState() {
-    _get_data();
-  }
-
-  _get_data() async {
-    setState(() {
-      isLoading = true;
-    });
-    http.Response response = await http.get(
-        'http://actv.avmspa.it/it/content/acqua-alta-servizi-di-navigazione-previsti');
-    dom.Document document = parser.parse(response.body);
-    marea_attuale = document.toString();
-
-    setState(() {
-      isLoading = false;
-    });
-  }
-
+class LandingCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Center(
-            child: Text(
-      "Test della pagina in corso\nAttualmente la marea é di " +
-          marea_attuale +
-          " cm",
-      style: Theme.of(context).textTheme.body1,
-    )));
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(15.0),
+      child: Center(
+        child: Text(
+          '''
+Ciao! Questa é un app che é stata costruita basandosi sugli OpenData del Comune di Venezia e del Centro Previsioni e Segnalazioni Maree di Venezia. Stiamo lavorando per implementare altre fonti per potenziare quest'app
+        ''',
+          style: Theme.of(context).textTheme.body1,
+        ),
+      ),
+    );
+
+    return Padding(
+      padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 40.0),
+      child: Container(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Text(
+              "Drago de Piera",
+              style: Theme.of(context).textTheme.title,
+            ),
+            textSection,
+            Container(
+
+                child: Center(
+                  child: CircleAvatar(
+                      radius: 120.0,
+                      backgroundImage: AssetImage("assets/img/logo.png")
+                  ),
+                ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
