@@ -25,6 +25,7 @@ dependencies:
   firebase_analytics: ^1.0.4
   firebase_messaging: any
   url_launcher: ^5.0.1
+  flip_box_bar: ^0.2.0
 
 
 dev_dependencies:

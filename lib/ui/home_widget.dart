@@ -1,9 +1,8 @@
-import 'package:drago_de_piera/models/developer.dart';
-import 'package:flutter/material.dart';
-
 import 'package:drago_de_piera/ui/about_widget.dart';
 import 'package:drago_de_piera/ui/landing_widget.dart';
 import 'package:drago_de_piera/ui/marea_widget.dart';
+import 'package:flip_box_bar/flip_box_bar.dart';
+import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -16,39 +15,44 @@ class _HomeState extends State<Home> {
   int _currentIndex = 0;
   final List<Widget> _children = [
     LandingWidget(),
-    MeraeWidget(),
+    MareaWidget(),
     AboutWidget()
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: FlipBoxBar(
+        items: [
+          FlipBarItem(
+              icon: Icon(Icons.dashboard),
+              text: Text("DashBoard"),
+              frontColor: Colors.blue,
+              backColor: Colors.blue),
+          FlipBarItem(
+              icon: Icon(Icons.broken_image),
+              text: Text("Marea"),
+              frontColor: Colors.green,
+              backColor: Colors.green),
+          FlipBarItem(
+              icon: Icon(Icons.info),
+              text: Text("Info"),
+              frontColor: Colors.red,
+              backColor: Colors.red),
+        ],
+        onIndexChanged: (index) {
+          setState(() {
+            _currentIndex = index;
+          });
+        },
+      ),
+
       appBar: AppBar(
         title: Text('Drago de Piera'),
       ),
       body: _children[_currentIndex], // new
-      bottomNavigationBar: BottomNavigationBar(
-        onTap: onTabTapped, // new
-        currentIndex: _currentIndex, // new
-        items: [
-          new BottomNavigationBarItem(
-            icon: Icon(Icons.dashboard),
-            title: Text('DashBoard'),
-          ),
-          new BottomNavigationBarItem(
-            icon: Icon(Icons.broken_image),
-            title: Text('Marea'),
-          ),
-          new BottomNavigationBarItem(
-              icon: Icon(Icons.info), title: Text('Info'))
-        ],
-      ),
     );
   }
 
-  void onTabTapped(int index) {
-    setState(() {
-      _currentIndex = index;
-    });
-  }
+  void onTabTapped(int index) {}
 }

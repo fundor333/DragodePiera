@@ -79,7 +79,7 @@ class MareaRow extends StatelessWidget {
   }
 }
 
-class MeraeWidget extends StatelessWidget {
+class MareaWidget extends StatelessWidget {
   Future<List<Previsione>> future_list = fetchPrevisioni();
 
   @override
