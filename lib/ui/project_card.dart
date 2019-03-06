@@ -25,7 +25,7 @@ class ProjectCard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: <Widget>[
                           Text(
-                            "Drago di Pieta",
+                            "Drago di Piera",
                             style: Theme.of(context).textTheme.subhead,
                           ),
                           Text("Codice sorgente per l'app che hai in mano")
