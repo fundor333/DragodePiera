@@ -27,7 +27,7 @@ Ciao! Questa é un app che é stata costruita basandosi sugli OpenData del Comun
     );
 
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 40.0),
+      padding: EdgeInsets.only(top: 40.0, left: 40.0, right: 40.0),
       child: Container(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
