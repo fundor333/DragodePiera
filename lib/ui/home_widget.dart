@@ -1,8 +1,8 @@
 import 'package:drago_de_piera/ui/about_widget.dart';
 import 'package:drago_de_piera/ui/landing_widget.dart';
 import 'package:drago_de_piera/ui/marea_widget.dart';
-import 'package:flip_box_bar/flip_box_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -22,31 +22,22 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: FlipBoxBar(
-        items: [
-          FlipBarItem(
-              icon: Icon(Icons.dashboard),
-              text: Text("DashBoard"),
-              frontColor: Theme.of(context).primaryColor,
-              backColor: Theme.of(context).primaryColor),
-          FlipBarItem(
-              icon: Icon(Icons.broken_image),
-              text: Text("Marea"),
-              frontColor: Theme.of(context).primaryColor,
-              backColor: Theme.of(context).primaryColor),
-          FlipBarItem(
-              icon: Icon(Icons.info),
-              text: Text("Info"),
-              frontColor: Theme.of(context).primaryColor,
-              backColor: Theme.of(context).primaryColor),
+      bottomNavigationBar: CurvedNavigationBar(
+        items: <Widget>[
+          Icon(Icons.dashboard),
+          Icon(Icons.broken_image),
+          Icon(Icons.info),
         ],
-        onIndexChanged: (index) {
+
+        color: Theme.of(context).primaryColor,
+        backgroundColor: Colors.grey[850],
+
+        onTap: (index) {
           setState(() {
             _currentIndex = index;
           });
         },
       ),
-
       appBar: AppBar(
         title: Text('Drago de Piera'),
       ),
