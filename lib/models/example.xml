@@ -1,0 +1,1513 @@
+<CONTENITORE>
+    <FORNITORE>
+        <![CDATA[ARPAV - Dipartimento Regionale per la Sicurezza del Territorio]]></FORNITORE>
+    <ISTANTERUN>201903061105</ISTANTERUN>
+    <NOTE>
+        <![CDATA[I dati della Rete Idrografica sono esposti nelle tabelle e nei grafici in modo automatico, senza validazione preventiva. ARPAV non assume responsabilità alcuna per usi diversi dalla pura informazione sulle condizioni dei corsi d'acqua. In seguito a validazione i dati possono subire modifiche anche notevoli, oppure i dati possono essere invalidati e quindi non riportati negli archivi definitivi.]]></NOTE>
+    <LICENZA>
+        <![CDATA[Dati rilasciati con licenza CC BY 4.0 https://creativecommons.org/licenses/by/4.0/deed.it]]></LICENZA>
+    <PERIODO>
+        <![CDATA[Dati dal 04/03/2019 01:00 al 06/03/2019 11:00 compresi (orario solare).]]></PERIODO>
+    <INIZIO>201903040100</INIZIO>
+    <FINE>201903061100</FINE>
+    <PROJECTION>EPSG:3857</PROJECTION>
+    <STAZIONE>
+        <IDSTAZ>160</IDSTAZ>
+        <NOME><![CDATA[Cavallino Treporti]]></NOME>
+        <X>12.48646</X>
+        <Y>45.45805</Y>
+        <QUOTA>1</QUOTA>
+        <TIPOSTAZ>AGRO</TIPOSTAZ>
+        <PROVINCIA>VE</PROVINCIA>
+        <COMUNE><![CDATA[CAVALLINO TREPORTI]]></COMUNE>
+        <ATTIVAZIONE>01/02/1992</ATTIVAZIONE>
+        <SENSORE>
+            <ID>300001079</ID>
+            <PARAMNM><![CDATA[Temperatura aria a 2m]]></PARAMNM>
+            <TYPE>TEMP</TYPE>
+            <UNITNM>°C</UNITNM>
+            <UNITCODE>20</UNITCODE>
+            <NOTE><![CDATA[Valori riferiti all'orario solare]]></NOTE>
+            <FREQ>60</FREQ>
+            <DATI ISTANTE="201903040100">
+                <VM>7.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903040200">
+                <VM>6.9</VM>
+            </DATI>
+            <DATI ISTANTE="201903040300">
+                <VM>7.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903040400">
+                <VM>7.9</VM>
+            </DATI>
+            <DATI ISTANTE="201903040500">
+                <VM>8.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903040600">
+                <VM>8.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903040700">
+                <VM>8.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903040800">
+                <VM>8.9</VM>
+            </DATI>
+            <DATI ISTANTE="201903040900">
+                <VM>8.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903041000">
+                <VM>9.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903041100">
+                <VM>10.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903041200">
+                <VM>10.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903041300">
+                <VM>9.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903041400">
+                <VM>10.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903041500">
+                <VM>10.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903041600">
+                <VM>9.9</VM>
+            </DATI>
+            <DATI ISTANTE="201903041700">
+                <VM>9.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903041800">
+                <VM>9.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903041900">
+                <VM>9.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903042000">
+                <VM>9.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903042100">
+                <VM>8.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903042200">
+                <VM>7.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903042300">
+                <VM>5.9</VM>
+            </DATI>
+            <DATI ISTANTE="201903050000">
+                <VM>5.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903050100">
+                <VM>5.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903050200">
+                <VM>5.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903050300">
+                <VM>4.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903050400">
+                <VM>4.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903050500">
+                <VM>6.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903050600">
+                <VM>6.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903050700">
+                <VM>7.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050800">
+                <VM>6.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903050900">
+                <VM>6.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903051000">
+                <VM>8.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903051100">
+                <VM>10.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051200">
+                <VM>10.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903051300">
+                <VM>9.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903051400">
+                <VM>8.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903051500">
+                <VM>8.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903051600">
+                <VM>8.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903051700">
+                <VM>7.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903051800">
+                <VM>6.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903051900">
+                <VM>6.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903052000">
+                <VM>7.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903052100">
+                <VM>8.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903052200">
+                <VM>7.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903052300">
+                <VM>7.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060000">
+                <VM>6.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903060100">
+                <VM>6.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903060200">
+                <VM>6.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903060300">
+                <VM>6.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903060400">
+                <VM>7.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903060500">
+                <VM>7.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903060600">
+                <VM>7.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903060700">
+                <VM>7.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903060800">
+                <VM>7.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903060900">
+                <VM>7.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903061000">
+                <VM>8.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903061100">
+                <VM>9.6</VM>
+            </DATI>
+        </SENSORE>
+        <SENSORE>
+            <ID>300001081</ID>
+            <PARAMNM><![CDATA[Umidità relativa a 2m]]></PARAMNM>
+            <TYPE>UMID</TYPE>
+            <UNITNM>%</UNITNM>
+            <UNITCODE>1</UNITCODE>
+            <NOTE><![CDATA[Valori riferiti all'orario solare]]></NOTE>
+            <FREQ>60</FREQ>
+            <DATI ISTANTE="201903040100">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903040200">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903040300">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903040400">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903040500">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903040600">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903040700">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903040800">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903040900">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903041000">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903041100">
+                <VM>92</VM>
+            </DATI>
+            <DATI ISTANTE="201903041200">
+                <VM>89</VM>
+            </DATI>
+            <DATI ISTANTE="201903041300">
+                <VM>90</VM>
+            </DATI>
+            <DATI ISTANTE="201903041400">
+                <VM>81</VM>
+            </DATI>
+            <DATI ISTANTE="201903041500">
+                <VM>80</VM>
+            </DATI>
+            <DATI ISTANTE="201903041600">
+                <VM>87</VM>
+            </DATI>
+            <DATI ISTANTE="201903041700">
+                <VM>93</VM>
+            </DATI>
+            <DATI ISTANTE="201903041800">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903041900">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903042000">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903042100">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903042200">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903042300">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903050000">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903050100">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903050200">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903050300">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903050400">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903050500">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903050600">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903050700">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903050800">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903050900">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903051000">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903051100">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903051200">
+                <VM>81</VM>
+            </DATI>
+            <DATI ISTANTE="201903051300">
+                <VM>86</VM>
+            </DATI>
+            <DATI ISTANTE="201903051400">
+                <VM>97</VM>
+            </DATI>
+            <DATI ISTANTE="201903051500">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903051600">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903051700">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903051800">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903051900">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903052000">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903052100">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903052200">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903052300">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903060000">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903060100">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903060200">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903060300">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903060400">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903060500">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903060600">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903060700">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903060800">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903060900">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903061000">
+                <VM>100</VM>
+            </DATI>
+            <DATI ISTANTE="201903061100">
+                <VM>100</VM>
+            </DATI>
+        </SENSORE>
+        <SENSORE>
+            <ID>300001083</ID>
+            <PARAMNM><![CDATA[Precipitazione]]></PARAMNM>
+            <TYPE>PREC</TYPE>
+            <UNITNM>mm</UNITNM>
+            <UNITCODE>13</UNITCODE>
+            <NOTE><![CDATA[Valori riferiti all'orario solare]]></NOTE>
+            <FREQ>60</FREQ>
+            <DATI ISTANTE="201903040100">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040200">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040300">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040400">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040500">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040600">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040700">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040800">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040900">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903041000">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903041100">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903041200">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903041300">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903041400">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903041500">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903041600">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903041700">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903041800">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903041900">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903042000">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903042100">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903042200">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903042300">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050000">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050100">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050200">
+                <VM>0.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903050300">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050400">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050500">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050600">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050700">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050800">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050900">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051000">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051100">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051200">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051300">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051400">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051500">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051600">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051700">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051800">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051900">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903052000">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903052100">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903052200">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903052300">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060000">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060100">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060200">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060300">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060400">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060500">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060600">
+                <VM>0.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903060700">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060800">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060900">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903061000">
+                <VM>0.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903061100">
+                <VM>0.0</VM>
+            </DATI>
+        </SENSORE>
+        <SENSORE>
+            <ID>300001090</ID>
+            <PARAMNM><![CDATA[Radiazione solare globale]]></PARAMNM>
+            <TYPE>RADSOL</TYPE>
+            <UNITNM>W/m2</UNITNM>
+            <UNITCODE>6</UNITCODE>
+            <NOTE><![CDATA[Valori riferiti all'orario solare]]></NOTE>
+            <FREQ>60</FREQ>
+            <DATI ISTANTE="201903040100">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040200">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040300">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040400">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040500">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040600">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040700">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040800">
+                <VM>42</VM>
+            </DATI>
+            <DATI ISTANTE="201903040900">
+                <VM>70</VM>
+            </DATI>
+            <DATI ISTANTE="201903041000">
+                <VM>160</VM>
+            </DATI>
+            <DATI ISTANTE="201903041100">
+                <VM>209</VM>
+            </DATI>
+            <DATI ISTANTE="201903041200">
+                <VM>126</VM>
+            </DATI>
+            <DATI ISTANTE="201903041300">
+                <VM>188</VM>
+            </DATI>
+            <DATI ISTANTE="201903041400">
+                <VM>474</VM>
+            </DATI>
+            <DATI ISTANTE="201903041500">
+                <VM>439</VM>
+            </DATI>
+            <DATI ISTANTE="201903041600">
+                <VM>244</VM>
+            </DATI>
+            <DATI ISTANTE="201903041700">
+                <VM>35</VM>
+            </DATI>
+            <DATI ISTANTE="201903041800">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903041900">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903042000">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903042100">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903042200">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903042300">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050000">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050100">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050200">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050300">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050400">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050500">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050600">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050700">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050800">
+                <VM>56</VM>
+            </DATI>
+            <DATI ISTANTE="201903050900">
+                <VM>119</VM>
+            </DATI>
+            <DATI ISTANTE="201903051000">
+                <VM>279</VM>
+            </DATI>
+            <DATI ISTANTE="201903051100">
+                <VM>321</VM>
+            </DATI>
+            <DATI ISTANTE="201903051200">
+                <VM>628</VM>
+            </DATI>
+            <DATI ISTANTE="201903051300">
+                <VM>481</VM>
+            </DATI>
+            <DATI ISTANTE="201903051400">
+                <VM>377</VM>
+            </DATI>
+            <DATI ISTANTE="201903051500">
+                <VM>265</VM>
+            </DATI>
+            <DATI ISTANTE="201903051600">
+                <VM>167</VM>
+            </DATI>
+            <DATI ISTANTE="201903051700">
+                <VM>77</VM>
+            </DATI>
+            <DATI ISTANTE="201903051800">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051900">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903052000">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903052100">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903052200">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903052300">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060000">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060100">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060200">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060300">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060400">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060500">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060600">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060700">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060800">
+                <VM>49</VM>
+            </DATI>
+            <DATI ISTANTE="201903060900">
+                <VM>98</VM>
+            </DATI>
+            <DATI ISTANTE="201903061000">
+                <VM>195</VM>
+            </DATI>
+            <DATI ISTANTE="201903061100">
+                <VM>390</VM>
+            </DATI>
+        </SENSORE>
+        <SENSORE>
+            <ID>300001077</ID>
+            <PARAMNM><![CDATA[Velocità vento a 10m]]></PARAMNM>
+            <TYPE>VVENTO</TYPE>
+            <UNITNM>m/s</UNITNM>
+            <UNITCODE>8</UNITCODE>
+            <NOTE><![CDATA[Valori riferiti all'orario solare]]></NOTE>
+            <FREQ>60</FREQ>
+            <DATI ISTANTE="201903040100">
+                <VM>1.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903040200">
+                <VM>2.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040300">
+                <VM>3.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040400">
+                <VM>0.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903040500">
+                <VM>2.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040600">
+                <VM>1.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903040700">
+                <VM>0.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903040800">
+                <VM>1.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040900">
+                <VM>1.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903041000">
+                <VM>1.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903041100">
+                <VM>1.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903041200">
+                <VM>0.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903041300">
+                <VM>1.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903041400">
+                <VM>1.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903041500">
+                <VM>2.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903041600">
+                <VM>2.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903041700">
+                <VM>1.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903041800">
+                <VM>1.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903041900">
+                <VM>1.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903042000">
+                <VM>1.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903042100">
+                <VM>0.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903042200">
+                <VM>0.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903042300">
+                <VM>0.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903050000">
+                <VM>0.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903050100">
+                <VM>0.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903050200">
+                <VM>1.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903050300">
+                <VM>0.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903050400">
+                <VM>0.9</VM>
+            </DATI>
+            <DATI ISTANTE="201903050500">
+                <VM>1.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903050600">
+                <VM>0.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903050700">
+                <VM>1.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903050800">
+                <VM>1.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903050900">
+                <VM>1.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903051000">
+                <VM>1.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903051100">
+                <VM>1.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903051200">
+                <VM>2.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903051300">
+                <VM>2.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903051400">
+                <VM>2.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903051500">
+                <VM>1.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903051600">
+                <VM>1.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903051700">
+                <VM>1.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903051800">
+                <VM>1.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051900">
+                <VM>1.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903052000">
+                <VM>0.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903052100">
+                <VM>2.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903052200">
+                <VM>1.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903052300">
+                <VM>1.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903060000">
+                <VM>1.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903060100">
+                <VM>1.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903060200">
+                <VM>1.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903060300">
+                <VM>1.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903060400">
+                <VM>0.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903060500">
+                <VM>1.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903060600">
+                <VM>1.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903060700">
+                <VM>0.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903060800">
+                <VM>1.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903060900">
+                <VM>1.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903061000">
+                <VM>1.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903061100">
+                <VM>0.9</VM>
+            </DATI>
+        </SENSORE>
+        <SENSORE>
+            <ID>300001078</ID>
+            <PARAMNM><![CDATA[Direzione vento a 10m]]></PARAMNM>
+            <TYPE>DVENTO</TYPE>
+            <UNITNM>gradi</UNITNM>
+            <UNITCODE>7</UNITCODE>
+            <NOTE><![CDATA[Valori riferiti all'orario solare]]></NOTE>
+            <FREQ>60</FREQ>
+            <DATI ISTANTE="201903040100">
+                <VM>55</VM>
+            </DATI>
+            <DATI ISTANTE="201903040200">
+                <VM>93</VM>
+            </DATI>
+            <DATI ISTANTE="201903040300">
+                <VM>130</VM>
+            </DATI>
+            <DATI ISTANTE="201903040400">
+                <VM>37</VM>
+            </DATI>
+            <DATI ISTANTE="201903040500">
+                <VM>111</VM>
+            </DATI>
+            <DATI ISTANTE="201903040600">
+                <VM>103</VM>
+            </DATI>
+            <DATI ISTANTE="201903040700">
+                <VM>55</VM>
+            </DATI>
+            <DATI ISTANTE="201903040800">
+                <VM>36</VM>
+            </DATI>
+            <DATI ISTANTE="201903040900">
+                <VM>28</VM>
+            </DATI>
+            <DATI ISTANTE="201903041000">
+                <VM>35</VM>
+            </DATI>
+            <DATI ISTANTE="201903041100">
+                <VM>11</VM>
+            </DATI>
+            <DATI ISTANTE="201903041200">
+                <VM>351</VM>
+            </DATI>
+            <DATI ISTANTE="201903041300">
+                <VM>153</VM>
+            </DATI>
+            <DATI ISTANTE="201903041400">
+                <VM>161</VM>
+            </DATI>
+            <DATI ISTANTE="201903041500">
+                <VM>114</VM>
+            </DATI>
+            <DATI ISTANTE="201903041600">
+                <VM>130</VM>
+            </DATI>
+            <DATI ISTANTE="201903041700">
+                <VM>103</VM>
+            </DATI>
+            <DATI ISTANTE="201903041800">
+                <VM>60</VM>
+            </DATI>
+            <DATI ISTANTE="201903041900">
+                <VM>79</VM>
+            </DATI>
+            <DATI ISTANTE="201903042000">
+                <VM>341</VM>
+            </DATI>
+            <DATI ISTANTE="201903042100">
+                <VM>358</VM>
+            </DATI>
+            <DATI ISTANTE="201903042200">
+                <VM>6</VM>
+            </DATI>
+            <DATI ISTANTE="201903042300">
+                <VM>290</VM>
+            </DATI>
+            <DATI ISTANTE="201903050000">
+                <VM>194</VM>
+            </DATI>
+            <DATI ISTANTE="201903050100">
+                <VM>162</VM>
+            </DATI>
+            <DATI ISTANTE="201903050200">
+                <VM>54</VM>
+            </DATI>
+            <DATI ISTANTE="201903050300">
+                <VM>70</VM>
+            </DATI>
+            <DATI ISTANTE="201903050400">
+                <VM>31</VM>
+            </DATI>
+            <DATI ISTANTE="201903050500">
+                <VM>33</VM>
+            </DATI>
+            <DATI ISTANTE="201903050600">
+                <VM>18</VM>
+            </DATI>
+            <DATI ISTANTE="201903050700">
+                <VM>7</VM>
+            </DATI>
+            <DATI ISTANTE="201903050800">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903050900">
+                <VM>8</VM>
+            </DATI>
+            <DATI ISTANTE="201903051000">
+                <VM>18</VM>
+            </DATI>
+            <DATI ISTANTE="201903051100">
+                <VM>37</VM>
+            </DATI>
+            <DATI ISTANTE="201903051200">
+                <VM>135</VM>
+            </DATI>
+            <DATI ISTANTE="201903051300">
+                <VM>109</VM>
+            </DATI>
+            <DATI ISTANTE="201903051400">
+                <VM>158</VM>
+            </DATI>
+            <DATI ISTANTE="201903051500">
+                <VM>184</VM>
+            </DATI>
+            <DATI ISTANTE="201903051600">
+                <VM>189</VM>
+            </DATI>
+            <DATI ISTANTE="201903051700">
+                <VM>197</VM>
+            </DATI>
+            <DATI ISTANTE="201903051800">
+                <VM>160</VM>
+            </DATI>
+            <DATI ISTANTE="201903051900">
+                <VM>147</VM>
+            </DATI>
+            <DATI ISTANTE="201903052000">
+                <VM>166</VM>
+            </DATI>
+            <DATI ISTANTE="201903052100">
+                <VM>157</VM>
+            </DATI>
+            <DATI ISTANTE="201903052200">
+                <VM>118</VM>
+            </DATI>
+            <DATI ISTANTE="201903052300">
+                <VM>49</VM>
+            </DATI>
+            <DATI ISTANTE="201903060000">
+                <VM>30</VM>
+            </DATI>
+            <DATI ISTANTE="201903060100">
+                <VM>59</VM>
+            </DATI>
+            <DATI ISTANTE="201903060200">
+                <VM>64</VM>
+            </DATI>
+            <DATI ISTANTE="201903060300">
+                <VM>80</VM>
+            </DATI>
+            <DATI ISTANTE="201903060400">
+                <VM>44</VM>
+            </DATI>
+            <DATI ISTANTE="201903060500">
+                <VM>27</VM>
+            </DATI>
+            <DATI ISTANTE="201903060600">
+                <VM>34</VM>
+            </DATI>
+            <DATI ISTANTE="201903060700">
+                <VM>12</VM>
+            </DATI>
+            <DATI ISTANTE="201903060800">
+                <VM>358</VM>
+            </DATI>
+            <DATI ISTANTE="201903060900">
+                <VM>0</VM>
+            </DATI>
+            <DATI ISTANTE="201903061000">
+                <VM>311</VM>
+            </DATI>
+            <DATI ISTANTE="201903061100">
+                <VM>277</VM>
+            </DATI>
+        </SENSORE>
+        <SENSORE>
+            <ID>300001101</ID>
+            <PARAMNM>Pressione atmosferica ridotta a livello del mare</PARAMNM>
+            <TYPE>PRESS</TYPE>
+            <UNITNM>hPa</UNITNM>
+            <UNITCODE>72</UNITCODE>
+            <NOTE><![CDATA[Valori riferiti all'orario solare]]></NOTE>
+            <FREQ>60</FREQ>
+            <DATI ISTANTE="201903040100">
+                <VM>1016.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903040200">
+                <VM>1015.9</VM>
+            </DATI>
+            <DATI ISTANTE="201903040300">
+                <VM>1015.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903040400">
+                <VM>1014.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903040500">
+                <VM>1014.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903040600">
+                <VM>1013.9</VM>
+            </DATI>
+            <DATI ISTANTE="201903040700">
+                <VM>1013.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903040800">
+                <VM>1013.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903040900">
+                <VM>1013.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903041000">
+                <VM>1013.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903041100">
+                <VM>1013.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903041200">
+                <VM>1012.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903041300">
+                <VM>1011.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903041400">
+                <VM>1010.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903041500">
+                <VM>1009.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903041600">
+                <VM>1008.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903041700">
+                <VM>1007.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903041800">
+                <VM>1006.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903041900">
+                <VM>1005.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903042000">
+                <VM>1005.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903042100">
+                <VM>1005.9</VM>
+            </DATI>
+            <DATI ISTANTE="201903042200">
+                <VM>1006.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903042300">
+                <VM>1007.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903050000">
+                <VM>1007.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903050100">
+                <VM>1008.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903050200">
+                <VM>1008.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903050300">
+                <VM>1008.9</VM>
+            </DATI>
+            <DATI ISTANTE="201903050400">
+                <VM>1008.8</VM>
+            </DATI>
+            <DATI ISTANTE="201903050500">
+                <VM>1009.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903050600">
+                <VM>1010.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903050700">
+                <VM>1010.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903050800">
+                <VM>1010.9</VM>
+            </DATI>
+            <DATI ISTANTE="201903050900">
+                <VM>1011.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903051000">
+                <VM>1011.9</VM>
+            </DATI>
+            <DATI ISTANTE="201903051100">
+                <VM>1012.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903051200">
+                <VM>1012.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903051300">
+                <VM>1012.4</VM>
+            </DATI>
+            <DATI ISTANTE="201903051400">
+                <VM>1012.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903051500">
+                <VM>1012.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903051600">
+                <VM>1012.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903051700">
+                <VM>1012.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903051800">
+                <VM>1012.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903051900">
+                <VM>1013.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903052000">
+                <VM>1013.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903052100">
+                <VM>1014.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903052200">
+                <VM>1015.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903052300">
+                <VM>1015.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903060000">
+                <VM>1015.7</VM>
+            </DATI>
+            <DATI ISTANTE="201903060100">
+                <VM>1016.0</VM>
+            </DATI>
+            <DATI ISTANTE="201903060200">
+                <VM>1016.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903060300">
+                <VM>1016.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903060400">
+                <VM>1016.2</VM>
+            </DATI>
+            <DATI ISTANTE="201903060500">
+                <VM>1016.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903060600">
+                <VM>1016.5</VM>
+            </DATI>
+            <DATI ISTANTE="201903060700">
+                <VM>1017.1</VM>
+            </DATI>
+            <DATI ISTANTE="201903060800">
+                <VM>1017.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903060900">
+                <VM>1018.3</VM>
+            </DATI>
+            <DATI ISTANTE="201903061000">
+                <VM>1018.6</VM>
+            </DATI>
+            <DATI ISTANTE="201903061100">
+                <VM>1018.7</VM>
+            </DATI>
+        </SENSORE>
+        <SENSORE>
+            <ID>300008128</ID>
+            <PARAMNM><![CDATA[Visibilità]]></PARAMNM>
+            <TYPE>VISIB</TYPE>
+            <UNITNM>m</UNITNM>
+            <UNITCODE>22</UNITCODE>
+            <NOTE><![CDATA[Valori riferiti all'orario solare]]></NOTE>
+            <FREQ>60</FREQ>
+            <DATI ISTANTE="201903040100">
+                <VM>1472</VM>
+            </DATI>
+            <DATI ISTANTE="201903040200">
+                <VM>10293</VM>
+            </DATI>
+            <DATI ISTANTE="201903040300">
+                <VM>15728</VM>
+            </DATI>
+            <DATI ISTANTE="201903040400">
+                <VM>8226</VM>
+            </DATI>
+            <DATI ISTANTE="201903040500">
+                <VM>4647</VM>
+            </DATI>
+            <DATI ISTANTE="201903040600">
+                <VM>6710</VM>
+            </DATI>
+            <DATI ISTANTE="201903040700">
+                <VM>7475</VM>
+            </DATI>
+            <DATI ISTANTE="201903040800">
+                <VM>7832</VM>
+            </DATI>
+            <DATI ISTANTE="201903040900">
+                <VM>7363</VM>
+            </DATI>
+            <DATI ISTANTE="201903041000">
+                <VM>8437</VM>
+            </DATI>
+            <DATI ISTANTE="201903041100">
+                <VM>8896</VM>
+            </DATI>
+            <DATI ISTANTE="201903041200">
+                <VM>9060</VM>
+            </DATI>
+            <DATI ISTANTE="201903041300">
+                <VM>9590</VM>
+            </DATI>
+            <DATI ISTANTE="201903041400">
+                <VM>11234</VM>
+            </DATI>
+            <DATI ISTANTE="201903041500">
+                <VM>10862</VM>
+            </DATI>
+            <DATI ISTANTE="201903041600">
+                <VM>9684</VM>
+            </DATI>
+            <DATI ISTANTE="201903041700">
+                <VM>10862</VM>
+            </DATI>
+            <DATI ISTANTE="201903041800">
+                <VM>9144</VM>
+            </DATI>
+            <DATI ISTANTE="201903041900">
+                <VM>9060</VM>
+            </DATI>
+            <DATI ISTANTE="201903042000">
+                <VM>7649</VM>
+            </DATI>
+            <DATI ISTANTE="201903042100">
+                <VM>3788</VM>
+            </DATI>
+            <DATI ISTANTE="201903042200">
+                <VM>1253</VM>
+            </DATI>
+            <DATI ISTANTE="201903042300">
+                <VM>607</VM>
+            </DATI>
+            <DATI ISTANTE="201903050000">
+                <VM>350</VM>
+            </DATI>
+            <DATI ISTANTE="201903050100">
+                <VM>149</VM>
+            </DATI>
+            <DATI ISTANTE="201903050200">
+                <VM>104</VM>
+            </DATI>
+            <DATI ISTANTE="201903050300">
+                <VM>114</VM>
+            </DATI>
+            <DATI ISTANTE="201903050400">
+                <VM>154</VM>
+            </DATI>
+            <DATI ISTANTE="201903050500">
+                <VM>136</VM>
+            </DATI>
+            <DATI ISTANTE="201903050600">
+                <VM>125</VM>
+            </DATI>
+            <DATI ISTANTE="201903050700">
+                <VM>187</VM>
+            </DATI>
+            <DATI ISTANTE="201903050800">
+                <VM>13748</VM>
+            </DATI>
+            <DATI ISTANTE="201903050900">
+                <VM>14144</VM>
+            </DATI>
+            <DATI ISTANTE="201903051000">
+                <VM>16666</VM>
+            </DATI>
+            <DATI ISTANTE="201903051100">
+                <VM>16666</VM>
+            </DATI>
+            <DATI ISTANTE="201903051200">
+                <VM>16666</VM>
+            </DATI>
+            <DATI ISTANTE="201903051300">
+                <VM>5698</VM>
+            </DATI>
+            <DATI ISTANTE="201903051400">
+                <VM>544</VM>
+            </DATI>
+            <DATI ISTANTE="201903051500">
+                <VM>500</VM>
+            </DATI>
+            <DATI ISTANTE="201903051600">
+                <VM>469</VM>
+            </DATI>
+            <DATI ISTANTE="201903051700">
+                <VM>185</VM>
+            </DATI>
+            <DATI ISTANTE="201903051800">
+                <VM>197</VM>
+            </DATI>
+            <DATI ISTANTE="201903051900">
+                <VM>270</VM>
+            </DATI>
+            <DATI ISTANTE="201903052000">
+                <VM>240</VM>
+            </DATI>
+            <DATI ISTANTE="201903052100">
+                <VM>344</VM>
+            </DATI>
+            <DATI ISTANTE="201903052200">
+                <VM>1226</VM>
+            </DATI>
+            <DATI ISTANTE="201903052300">
+                <VM>170</VM>
+            </DATI>
+            <DATI ISTANTE="201903060000">
+                <VM>208</VM>
+            </DATI>
+            <DATI ISTANTE="201903060100">
+                <VM>219</VM>
+            </DATI>
+            <DATI ISTANTE="201903060200">
+                <VM>247</VM>
+            </DATI>
+            <DATI ISTANTE="201903060300">
+                <VM>203</VM>
+            </DATI>
+            <DATI ISTANTE="201903060400">
+                <VM>196</VM>
+            </DATI>
+            <DATI ISTANTE="201903060500">
+                <VM>293</VM>
+            </DATI>
+            <DATI ISTANTE="201903060600">
+                <VM>673</VM>
+            </DATI>
+            <DATI ISTANTE="201903060700">
+                <VM>715</VM>
+            </DATI>
+            <DATI ISTANTE="201903060800">
+                <VM>2278</VM>
+            </DATI>
+            <DATI ISTANTE="201903060900">
+                <VM>3773</VM>
+            </DATI>
+            <DATI ISTANTE="201903061000">
+                <VM>3862</VM>
+            </DATI>
+            <DATI ISTANTE="201903061100">
+                <VM>6202</VM>
+            </DATI>
+        </SENSORE>
+    </STAZIONE>
+</CONTENITORE>
