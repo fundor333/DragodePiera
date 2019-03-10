@@ -12,9 +12,7 @@ class ProjectCard extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 30.0),
-      child: Container(
+    return Container(
           child: GestureDetector(
         onTap: () => _launchURL(opendata.url),
         child: Padding(
@@ -34,7 +32,7 @@ class ProjectCard extends StatelessWidget {
                           Text(opendata.title,
                             style: Theme.of(context).textTheme.subhead,
                           ),
-                          Text(opendata.text)
+                          Text(opendata.text, style: Theme.of(context).textTheme.subhead,)
                         ],
                       ),
                     )),
@@ -54,8 +52,7 @@ class ProjectCard extends StatelessWidget {
             ],
           ),
         ),
-      )),
-    );
+      ));
   }
 
 

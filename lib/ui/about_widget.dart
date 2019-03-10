@@ -23,7 +23,8 @@ class AboutWidget extends StatelessWidget {
       ),
     );
 
-    Widget projectGithub = ProjectCard(sourcecode);
+    Widget projectGithub = ProjectCard(source_code);
+    Widget centroMaree = ProjectCard(centro_maree);
 
 
     Widget titleDev = Container(
@@ -49,6 +50,7 @@ class AboutWidget extends StatelessWidget {
       children: [
         titleSection,
         projectGithub,
+        centroMaree,
         titleDev,
         devlist,
       ],
