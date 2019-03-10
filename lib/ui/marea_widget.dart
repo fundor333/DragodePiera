@@ -1,4 +1,4 @@
-import 'package:drago_de_piera/models/previsione.dart';
+import 'package:drago_de_piera/models/previsione_marea.dart';
 import 'package:drago_de_piera/ui/marea_card.dart';
 import 'package:flutter/material.dart';
 
