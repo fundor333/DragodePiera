@@ -1,4 +1,5 @@
 import 'package:drago_de_piera/models/developer.dart';
+import 'package:drago_de_piera/models/open_data.dart';
 import 'package:drago_de_piera/ui/dev_card.dart';
 import 'package:drago_de_piera/ui/project_card.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +23,7 @@ class AboutWidget extends StatelessWidget {
       ),
     );
 
-    Widget projectGithub = ProjectCard();
+    Widget projectGithub = ProjectCard(sourcecode);
 
 
     Widget titleDev = Container(

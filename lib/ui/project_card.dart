@@ -1,15 +1,22 @@
 import 'package:drago_de_piera/models/developer.dart';
+import 'package:drago_de_piera/models/open_data.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+
 class ProjectCard extends StatelessWidget {
+
+  final OpenData opendata;
+
+  ProjectCard(this.opendata);
+  
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 30.0),
       child: Container(
           child: GestureDetector(
-        onTap: () => _launchURL("https://github.com/samarcandaproject/DragodePiera"),
+        onTap: () => _launchURL(opendata.url),
         child: Padding(
           padding: EdgeInsets.all(20.0),
           child: new Stack(
@@ -24,11 +31,10 @@ class ProjectCard extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: <Widget>[
-                          Text(
-                            "Drago di Piera",
+                          Text(opendata.title,
                             style: Theme.of(context).textTheme.subhead,
                           ),
-                          Text("Codice sorgente per l'app che hai in mano")
+                          Text(opendata.text)
                         ],
                       ),
                     )),
@@ -41,7 +47,7 @@ class ProjectCard extends StatelessWidget {
                   child: CircleAvatar(
                     radius: 30.0,
                     backgroundImage: NetworkImage(
-                        "https://avatars.githubusercontent.com/samarcandaproject"),
+                        opendata.img),
                   ),
                 ),
               ),
