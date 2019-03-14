@@ -1,15 +1,15 @@
-import 'package:drago_de_piera/models/previsione_marea.dart';
-import 'package:drago_de_piera/ui/marea_card.dart';
+import 'package:drago_de_piera/models/arpav/previzione_meteo.dart';
+import 'package:drago_de_piera/ui/meteo/meteo_row.dart';
 import 'package:flutter/material.dart';
 
-class MareaWidget extends StatelessWidget {
-  Future<List<Previsione>> future_list = fetchPrevisioni();
+class MeteoListWidget extends StatelessWidget {
+  Future<List<ArpavMeteo>> future_list = fetchPrevisioniMeteo();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: FutureBuilder<List<Previsione>>(
+        child: FutureBuilder<List<ArpavMeteo>>(
           future: future_list,
           builder: (context, snapshot) {
             if (snapshot.hasData) {
@@ -17,7 +17,7 @@ class MareaWidget extends StatelessWidget {
               return ListView.builder(
                   itemCount: list.length,
                   itemBuilder: (BuildContext context, int index) {
-                    return MareaCard(list[index]);
+                    return MeteoRow(list[index]);
                   });
             } else if (snapshot.hasError) {
               return Text("${snapshot.error}");

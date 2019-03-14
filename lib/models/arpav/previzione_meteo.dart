@@ -18,13 +18,12 @@ class ArpavMeteo {
       this.probabilita_precipitazione, this.neve, this.vento, this.data);
 
   factory ArpavMeteo.fromJson(Map<String, dynamic> json) {
-    print(json);
     final prev = json["previsione"];
     var vento;
     try {
       vento = prev[6]["@value"];
     }catch (e){
-      vento = "";
+      vento = "assente";
 
     }
     return ArpavMeteo(
