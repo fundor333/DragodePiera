@@ -25,6 +25,8 @@ class MaterialAppDrago extends MaterialApp {
       headline: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
       title: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
       body1: TextStyle(fontSize: 14.0, fontFamily: 'Hind'),
+      body2: TextStyle(fontSize: 20.0, fontFamily: 'Hind',fontWeight: FontWeight.bold),
+
     ),
   );
 
