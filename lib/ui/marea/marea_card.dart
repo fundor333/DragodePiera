@@ -1,4 +1,4 @@
-import 'package:drago_de_piera/models/previsione.dart';
+import 'package:drago_de_piera/models/previsione_marea.dart';
 import 'package:flutter/material.dart';
 
 class MareaCard extends StatelessWidget {
@@ -9,7 +9,7 @@ class MareaCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 30.0),
+      padding: const EdgeInsets.symmetric(horizontal: 10.0),
       child: Card(
         child: Padding(
           padding: EdgeInsets.all(20.0),

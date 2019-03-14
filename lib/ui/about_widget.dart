@@ -1,5 +1,6 @@
 import 'package:drago_de_piera/models/developer.dart';
 import 'package:drago_de_piera/models/open_data.dart';
+import 'package:drago_de_piera/ui/app_card.dart';
 import 'package:drago_de_piera/ui/dev_card.dart';
 import 'package:drago_de_piera/ui/project_card.dart';
 import 'package:flutter/material.dart';
@@ -7,15 +8,17 @@ import 'package:flutter/material.dart';
 class AboutWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    Widget titleSection = Container(
-      padding: const EdgeInsets.only(top:32.0),
+    Widget titleSection = AppCard();
+
+    Widget openDev = Container(
+      padding: const EdgeInsets.symmetric(horizontal:32.0),
       child: Row(
         children: [
           Expanded(
             child: Center(
               child: Text(
-                'Drago de Piera',
-                style: Theme.of(context).textTheme.title,
+                'I nostri Open Data',
+                style: Theme.of(context).textTheme.display1,
               ),
             ),
           ),
@@ -23,7 +26,9 @@ class AboutWidget extends StatelessWidget {
       ),
     );
 
-    Widget projectGithub = ProjectCard(sourcecode);
+    Widget projectGithub = ProjectCard(source_code);
+    Widget centroMaree = ProjectCard(centro_maree);
+    Widget arpavAllergeni = ProjectCard(arpav_allergeni);
 
 
     Widget titleDev = Container(
@@ -48,7 +53,10 @@ class AboutWidget extends StatelessWidget {
         body: ListView(
       children: [
         titleSection,
+        openDev,
         projectGithub,
+        centroMaree,
+        arpavAllergeni,
         titleDev,
         devlist,
       ],
