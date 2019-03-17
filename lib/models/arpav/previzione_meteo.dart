@@ -22,9 +22,8 @@ class ArpavMeteo {
     var vento;
     try {
       vento = prev[6]["@value"];
-    }catch (e){
+    } catch (e) {
       vento = "assente";
-
     }
     return ArpavMeteo(
         prev[0]["@value"],
@@ -45,7 +44,8 @@ Future<List<ArpavMeteo>> fetchPrevisioniMeteo() async {
     if (response.statusCode == 200) {
       final Xml2Json myTransformer = Xml2Json();
       myTransformer.parse(response.body);
-      return ((json.decode(myTransformer.toBadgerfish())["previsioni"]["meteogrammi"]["meteogramma"][10]["scadenza"] as List)
+      return ((json.decode(myTransformer.toBadgerfish())["previsioni"]
+              ["meteogrammi"]["meteogramma"][10]["scadenza"] as List)
           .map((data) => new ArpavMeteo.fromJson(data))
           .toList());
     } else {

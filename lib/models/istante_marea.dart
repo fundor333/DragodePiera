@@ -12,7 +12,9 @@ class IstanteMarea {
     var document = parse(json);
     var last = "";
 
-    for (var i = 0; document.querySelector("table").children[2].children.length > i; i++) {
+    for (var i = 0;
+        document.querySelector("table").children[2].children.length > i;
+        i++) {
       var element = document.querySelector("table").children[2].children[i];
       if (element.children[2].text == "") {
         print(last);
