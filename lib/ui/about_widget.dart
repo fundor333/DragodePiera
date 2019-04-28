@@ -11,7 +11,7 @@ class AboutWidget extends StatelessWidget {
     Widget titleSection = AppCard();
 
     Widget openDev = Container(
-      padding: const EdgeInsets.symmetric(horizontal:32.0),
+      padding: const EdgeInsets.symmetric(horizontal: 32.0),
       child: Row(
         children: [
           Expanded(
@@ -30,9 +30,8 @@ class AboutWidget extends StatelessWidget {
     Widget centroMaree = ProjectCard(centro_maree);
     Widget arpavAllergeni = ProjectCard(arpav_allergeni);
 
-
     Widget titleDev = Container(
-      padding: const EdgeInsets.symmetric(horizontal:32.0),
+      padding: const EdgeInsets.symmetric(horizontal: 32.0),
       child: Row(
         children: [
           Expanded(

@@ -1,9 +1,9 @@
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:drago_de_piera/ui/about_widget.dart';
 import 'package:drago_de_piera/ui/landing_widget.dart';
 import 'package:drago_de_piera/ui/marea/marea_widget.dart';
 import 'package:drago_de_piera/ui/meteo/meteo_list_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -31,10 +31,8 @@ class _HomeState extends State<Home> {
           Icon(Icons.wb_sunny),
           Icon(Icons.info),
         ],
-
         color: Theme.of(context).primaryColor,
         backgroundColor: Colors.grey[850],
-
         onTap: (index) {
           setState(() {
             _currentIndex = index;

@@ -18,7 +18,8 @@ class MareaCard extends StatelessWidget {
             children: <Widget>[
               Column(mainAxisSize: MainAxisSize.min, children: [
                 this.marea.tipo_estremale,
-              ]),Column(mainAxisSize: MainAxisSize.min, children: [
+              ]),
+              Column(mainAxisSize: MainAxisSize.min, children: [
                 Text(this.marea.valore + " cm ",
                     style: Theme.of(context).textTheme.title),
               ]),

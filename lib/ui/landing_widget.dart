@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:drago_de_piera/models/arpav/previzione_meteo.dart';
 import 'package:drago_de_piera/ui/meteo/meteo_card.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +16,6 @@ class LandingWidget extends StatelessWidget {
 }
 
 class LandingCard extends StatelessWidget {
-
   Future<List<ArpavMeteo>> future_list = fetchPrevisioniMeteo();
 
   @override
@@ -38,4 +39,3 @@ class LandingCard extends StatelessWidget {
     );
   }
 }
-
