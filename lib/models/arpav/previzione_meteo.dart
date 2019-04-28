@@ -20,6 +20,13 @@ class ArpavMeteo {
   factory ArpavMeteo.fromJson(Map<String, dynamic> json) {
     final prev = json["previsione"];
     var vento;
+    var now = new DateTime.now();
+    var dateJson = capitalize(json["@data"]).replaceAll("  ",  " ").split(" ");
+    if (now.day > int.parse(dateJson[1])){return null;}
+    print(dateJson[3]);
+    if (now.day == int.parse(dateJson[1]) && now.hour>12 && dateJson[3]=="mattina"){return null;}
+
+
     try {
       vento = prev[6]["@value"];
     } catch (e) {
@@ -44,10 +51,12 @@ Future<List<ArpavMeteo>> fetchPrevisioniMeteo() async {
     if (response.statusCode == 200) {
       final Xml2Json myTransformer = Xml2Json();
       myTransformer.parse(response.body);
-      return ((json.decode(myTransformer.toBadgerfish())["previsioni"]
+      var a =  ((json.decode(myTransformer.toBadgerfish())["previsioni"]
               ["meteogrammi"]["meteogramma"][10]["scadenza"] as List)
           .map((data) => new ArpavMeteo.fromJson(data))
           .toList());
+      a.removeWhere((value) => value == null);
+      return a;
     } else {
       throw Exception('Failed to load previsioni');
     }
