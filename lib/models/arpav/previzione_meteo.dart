@@ -23,9 +23,13 @@ class ArpavMeteo {
     var now = new DateTime.now();
     var dateJson = capitalize(json["@data"]).replaceAll("  ",  " ").split(" ");
     if (now.day > int.parse(dateJson[1])){return null;}
-    print(dateJson[3]);
-    if (now.day == int.parse(dateJson[1]) && now.hour>12 && dateJson[3]=="mattina"){return null;}
-
+    print(dateJson.length);
+    if (dateJson.length==4) {
+      if (now.day == int.parse(dateJson[1]) && now.hour > 12 &&
+          dateJson[3] == "mattina") {
+        return null;
+      }
+    }
 
     try {
       vento = prev[6]["@value"];
