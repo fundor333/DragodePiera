@@ -17,6 +17,7 @@ class ProjectCard extends StatelessWidget {
         child: new Stack(
           children: <Widget>[
             Card(
+              elevation: 4.0,
               margin: const EdgeInsets.only(top: 20.0),
               child: SizedBox(
                   height: 100.0,
@@ -45,6 +46,7 @@ class ProjectCard extends StatelessWidget {
               child: Center(
                 child: CircleAvatar(
                   radius: 30.0,
+                  backgroundColor: Colors.white,
                   backgroundImage: NetworkImage(opendata.img),
                 ),
               ),

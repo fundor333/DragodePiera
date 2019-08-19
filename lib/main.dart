@@ -12,7 +12,7 @@ class MaterialAppDrago extends MaterialApp {
   final debugShowCheckedModeBanner = false;
 
   final theme = ThemeData(
-    brightness: Brightness.dark,
+    brightness: Brightness.light,
     primaryColor: Colors.indigo[700],
     accentColor: Colors.cyan[600],
 

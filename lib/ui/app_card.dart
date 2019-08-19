@@ -30,7 +30,8 @@ Ciao! Questa é un app che é stata costruita basandosi sugli OpenData del Comun
               child: Center(
                 child: CircleAvatar(
                     radius: 120.0,
-                    backgroundImage: AssetImage("assets/img/logo.png")),
+                    backgroundImage: AssetImage("assets/img/logo.png"),
+                backgroundColor: Colors.white,),
               ),
             ),
           ],
