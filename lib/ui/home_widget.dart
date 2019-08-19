@@ -26,13 +26,13 @@ class _HomeState extends State<Home> {
     return Scaffold(
       bottomNavigationBar: CurvedNavigationBar(
         items: <Widget>[
-          Icon(Icons.dashboard),
-          Icon(Icons.broken_image),
-          Icon(Icons.wb_sunny),
-          Icon(Icons.info),
+          Icon(Icons.dashboard, color: Colors.white,),
+          Icon(Icons.broken_image, color: Colors.white,),
+          Icon(Icons.wb_sunny, color: Colors.white,),
+          Icon(Icons.info, color: Colors.white,),
         ],
         color: Theme.of(context).primaryColor,
-        backgroundColor: Colors.grey[850],
+        backgroundColor: Colors.white,
         onTap: (index) {
           setState(() {
             _currentIndex = index;

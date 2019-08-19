@@ -1,4 +1,5 @@
 import 'package:drago_de_piera/models/open_data.dart';
+import 'package:drago_de_piera/ui/squared_image.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -17,6 +18,7 @@ class ProjectCard extends StatelessWidget {
         child: new Stack(
           children: <Widget>[
             Card(
+              elevation: 4.0,
               margin: const EdgeInsets.only(top: 20.0),
               child: SizedBox(
                   height: 100.0,
@@ -43,9 +45,10 @@ class ProjectCard extends StatelessWidget {
               left: .0,
               right: .0,
               child: Center(
-                child: CircleAvatar(
+                child: SquaredNetImageShadow(
                   radius: 30.0,
-                  backgroundImage: NetworkImage(opendata.img),
+                  backgroundColor: Colors.white,
+                  backgroundImage: opendata.img,
                 ),
               ),
             ),

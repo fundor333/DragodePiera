@@ -1,4 +1,5 @@
 import 'package:drago_de_piera/models/developer.dart';
+import 'package:drago_de_piera/ui/squared_image.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -38,11 +39,12 @@ class DevCard extends StatelessWidget {
                 left: .0,
                 right: .0,
                 child: Center(
-                  child: CircleAvatar(
+                  child: SquaredNetImageShadow(
+                    backgroundColor: Colors.white,
                     radius: 30.0,
-                    backgroundImage: NetworkImage(
+                    backgroundImage:
                         "https://avatars.githubusercontent.com/" +
-                            planet.github),
+                            planet.github
                   ),
                 ),
               ),

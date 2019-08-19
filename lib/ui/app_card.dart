@@ -1,3 +1,4 @@
+import 'package:drago_de_piera/ui/squared_image.dart';
 import 'package:flutter/material.dart';
 
 class AppCard extends StatelessWidget {
@@ -28,9 +29,10 @@ Ciao! Questa é un app che é stata costruita basandosi sugli OpenData del Comun
             textSection,
             Container(
               child: Center(
-                child: CircleAvatar(
+                child: SquaredStaticImageShadow(
                     radius: 120.0,
-                    backgroundImage: AssetImage("assets/img/logo.png")),
+                    backgroundImage: "assets/img/logo.png",
+                backgroundColor: Colors.white,),
               ),
             ),
           ],
