@@ -1,4 +1,5 @@
 import 'package:drago_de_piera/models/open_data.dart';
+import 'package:drago_de_piera/ui/squared_image.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -44,10 +45,10 @@ class ProjectCard extends StatelessWidget {
               left: .0,
               right: .0,
               child: Center(
-                child: CircleAvatar(
+                child: SquaredNetImageShadow(
                   radius: 30.0,
                   backgroundColor: Colors.white,
-                  backgroundImage: NetworkImage(opendata.img),
+                  backgroundImage: opendata.img,
                 ),
               ),
             ),

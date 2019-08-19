@@ -39,7 +39,7 @@ class DevCard extends StatelessWidget {
                 left: .0,
                 right: .0,
                 child: Center(
-                  child: SquaredImageShadow(
+                  child: SquaredNetImageShadow(
                     backgroundColor: Colors.white,
                     radius: 30.0,
                     backgroundImage:
